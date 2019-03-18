@@ -1,0 +1,92 @@
+div {
+   background: rgb(240, 240, 240);                         
+   padding: 80px;                             
+   border-radius: 2px;                        
+   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.container {
+   width: 700px;
+  margin: 40px auto;
+}
+title {
+  font-family: Helvetica;
+  font-size: 18px
+  text-decoration: none;
+  text-align: center;
+}
+
+body {
+background-color:white;
+background-image:url(images/testimonials-bg.jpg);
+}
+
+h1 {
+  color: blue;
+  font font-family: Courier;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+h2 {
+  color:blue;
+  font-family: Helvetica;
+  font-size: 24px
+  text-decoration: none;
+  font-family: centaur;
+  text-align: center;
+}
+
+
+p {
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Courier;
+
+}
+
+
+
+
+a {
+  font-size: 14px;
+  text-align: center;
+
+
+}
+
+
+ul {
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+}
+
+img {
+  text-align: center;
+}
+
+
+
+.soloc {
+margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+
+  img {
+    width: 200px
+  }
+}
+
+
+@media (max-width: 200px) {
+  .container {
+    width: 100px;
+}
